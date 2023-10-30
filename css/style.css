@@ -1,3 +1,5 @@
+/* stili generali */
+
 *{
     margin: 0;
     padding: 0;
@@ -6,4 +8,50 @@
 
 :root{
     font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+/* stili mobile first */
+
+/* stili header */
+
+header{
+    background-color:#0084fd ;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    padding: 20px 0;
+}
+
+.row-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar{
+    display: flex;
+    list-style-type: none;
+    display: none;
+}
+
+.link-nav{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.button{
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.fa-bars{
+    font-size: 20px;
 }
