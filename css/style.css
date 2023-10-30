@@ -23,14 +23,14 @@ header{
 .container{
     width: 90%;
     margin: 0 auto;
-    color: white;
-    padding: 20px 0;
 }
 
 .row-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
+    padding: 20px 0;
 }
 
 #navbar{
@@ -49,9 +49,96 @@ header{
     color: black;
     background-color: white;
     padding: 5px 10px;
-    border-radius: 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
 }
 
 .fa-bars{
     font-size: 20px;
+}
+
+/* stili planning */
+
+section{
+    padding: 50px 0;
+}
+
+.planning .col{
+    background-color: #b5ddff;
+    padding-top: 20px;
+    border-radius: 15px;
+    color: gray;
+    margin: 40px 0;
+    text-align: center;
+}
+
+#phone .text-col{
+    width: 73%;
+    margin: 0 auto;
+    text-align: start;
+}
+
+.col h2{
+    font-size: 25px;
+    color: #0084fd;
+}
+
+.col p{
+    padding: 20px 0;
+}
+
+.planning .button{
+    color: white;
+    background-color: #0084fd;
+    font-size: 20px;
+    padding: 10px 90px;
+}
+
+.fa-apple{
+    margin-right: 10px;
+}
+#app-store{
+    margin: 20px 0;
+}
+
+.img img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.planning .fa-solid{
+    color: #0084fd;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+/* stili strategic planning */
+#strategic-planning{
+    background-color: #9593e6;
+    color: white;
+}
+
+#strategic-planning h2{
+    color: white;
+    margin: 30px 0;
+}
+
+#app-development{
+    background-color: white;
+    color: black;
+    border-radius: 45px;
+    text-align: center;
+}
+
+#app-development .text-col{
+    margin: 20px 0;
+}
+
+.fa-down-long{
+    color: black;
+    background-color: #9593e6;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
