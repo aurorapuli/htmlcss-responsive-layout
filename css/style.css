@@ -341,20 +341,25 @@ section{
 }
 
 /* stili about us */
+#about-us .img {
+    width: 150px;
+    position: relative;
+}
+
 
 #about-us .img img{
    width: 150px;
    height: 150px;
    margin: 20px auto;
    border-radius: 50%;
-   position: relative;
 }
 
 .fa-quote-left{
     color: #9593e6;
     font-size: 50px;
     position: absolute;
-    left: 120px;
+    right: 0px;
+    top: 20px;
 }
 
 #about-us a{
@@ -386,11 +391,6 @@ section{
     #about-us .col{
       width: 40%;
     }
-
-    .fa-quote-left{
-        left:560px;
-    }
-
 }
 
 /* stili get started */
