@@ -8,6 +8,8 @@
 
 :root{
     font-size: 14px;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-family: 'PT Sans', sans-serif;
 
 }
@@ -219,4 +221,82 @@ section{
     text-align: center;
     border-radius: 25px;
     font-size: 20px;
+}
+
+/* stili about us */
+
+#about-us .img img{
+   width: 150px;
+   height: 150px;
+   margin: 20px auto;
+   border-radius: 50%;
+   position: relative;
+}
+
+.fa-quote-left{
+    color: #9593e6;
+    font-size: 50px;
+    position: absolute;
+    left: 120px;
+}
+
+#about-us a{
+    text-decoration: none;
+    color: white;
+    background-color: #9593e6;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.fa-linkedin{
+    margin-right: 10px;
+}
+
+#about-us h2{
+    color: #9593e6;
+    margin-bottom: 30px;
+
+}
+
+
+/* stili get started */
+
+#get-started{
+    text-align: center;
+    background-color: #9593e6;
+    color: white;
+}
+
+#get-started *{
+    margin-bottom: 20px;
+}
+
+#get-started h3{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+#get-started h2{
+    font-size: 90px;
+    color: #e8b971;
+}
+
+#get-started p{
+    margin-bottom: 50px;
+}
+
+#get-started .button{
+    color: #9593e6;
+    font-size: 20px;
+    padding: 15px 90px;
+    border-radius: 40px;
+}
+
+#copyright{
+    margin-top: 50px;
+}
+
+#copyright a{
+    color: white;
 }
