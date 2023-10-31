@@ -20,6 +20,9 @@
 
 header{
     background-color:#0084fd ;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
 }
 
 .container{
@@ -60,10 +63,33 @@ header{
     font-size: 20px;
 }
 
+/* header desktop version */
+
+@media all and (min-width:1200px){
+    #navbar{
+        display: block;
+        display: flex;
+    }
+
+    #fa-bars{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
 /* stili planning */
 
 section{
     padding: 50px 0;
+}
+
+.planning{
+    padding-top: 100px;
 }
 
 .planning .col{
@@ -115,7 +141,43 @@ section{
     margin-bottom: 20px;
 }
 
+/* planning tablet version */
+@media all  and  (min-width:768px){
+
+    .planning .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .planning .col{
+        width: calc((100% / 3 ) - 20px);
+        margin: 10px;
+    }
+
+    #phone{
+        width: calc(((100% / 3) * 2) - 20px );
+    }
+
+}
+
+/* planning desktop version */
+
+@media all and (min-width:1200px){
+     .container{
+        max-width: 1100px;
+    } 
+
+    #phone{
+        display: flex;
+    }
+}
+
+
+
+
+
 /* stili strategic planning */
+
 #strategic-planning{
     background-color: #9593e6;
     color: white;
@@ -144,6 +206,25 @@ section{
     border-radius: 50%;
     margin-bottom: 20px;
 }
+
+
+/* strategic planning desktop version */
+ @media all and (min-width:1200px){
+    #strategic-planning .row{
+        display: flex;
+    }
+
+
+    #app-development{
+     width: 70%;
+     align-self: flex-end;
+    }
+ }   
+
+
+
+
+
 
 /* stili testimonial */
 
@@ -174,6 +255,20 @@ section{
     padding: 20px 10px;
     border-radius: 25px;
     margin: 30px 0;
+}
+
+/* testimonials tablet version */
+
+@media all and (min-width:768px){
+    #testimonials .col{
+        display: flex;
+    }
+
+    #testimonials .text-col{
+        text-align: start;
+        padding-left: 30px;
+    }
+
 }
 
 
@@ -223,6 +318,28 @@ section{
     font-size: 20px;
 }
 
+/* benefits tablet-version */
+@media all and (min-width:768px){
+    #benefits .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #benefits .col{
+        width: calc((100% / 2) - 20px);
+        margin: 10px;
+    }
+}
+
+/* benefits desktop-version */
+@media all and (min-width:1200px){
+    #benefits .col{
+        width: calc((100% / 3) - 20px);
+        margin: 10px;
+        }
+
+}
+
 /* stili about us */
 
 #about-us .img img{
@@ -259,6 +376,22 @@ section{
 
 }
 
+/* about us tablet version */
+@media all and (min-width:768px){
+    #about-us .row{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #about-us .col{
+      width: 40%;
+    }
+
+    .fa-quote-left{
+        left:560px;
+    }
+
+}
 
 /* stili get started */
 
@@ -306,7 +439,7 @@ section{
 footer{
     background-color:#333333 ;
     color: white;
-    padding-top: 30px;
+    padding: 30px 0;
     text-align: center;
 }
 
