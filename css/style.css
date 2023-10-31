@@ -300,3 +300,22 @@ section{
 #copyright a{
     color: white;
 }
+
+/* stili footer */
+
+footer{
+    background-color:#333333 ;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+
+footer p{
+    margin-bottom: 50px;
+
+}
+
+footer a{
+    color: #9593e6;
+
+}
